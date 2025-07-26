@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mithila Samaj Bikash Manch - मिथिला समाज विकास मञ्च</title>
+    <link rel="stylesheet" href="styles-v3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Contact Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+977-9851234567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>mithilasamaj@gmail.com</span>
+                    </div>
+                </div>
+                <div class="social-donate">
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <button class="donate-btn">DONATE NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Logo">
+                    </div>
+                    <div class="org-name">
+                        <h1>मिथिला समाज विकास मञ्च</h1>
+                        <p>Mithila Samaj Bikash Manch</p>
+                    </div>
+                </div>
+
+                <nav class="desktop-nav">
+                    <a href="#about" class="nav-link">WHO WE ARE</a>
+                    <a href="#services" class="nav-link">WHAT WE DO</a>
+                    <a href="#gallery" class="nav-link">OUR ARCHIVE</a>
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </nav>
+
+                <div class="mobile-controls">
+                    <button class="theme-toggle" id="mobileThemeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="mobile-nav" id="mobileNav">
+                <a href="#about" class="mobile-nav-link">WHO WE ARE</a>
+                <a href="#services" class="mobile-nav-link">WHAT WE DO</a>
+                <a href="#gallery" class="mobile-nav-link">OUR ARCHIVE</a>
+                <a href="#contact" class="mobile-nav-link">CONTACT</a>
+                <button class="mobile-donate-btn">DONATE NOW</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="hero-title" id="heroTitle">MITHILA SAMAJ BIKASH MANCH</h1>
+                    <div class="title-divider"></div>
+                    <h2 class="hero-subtitle" id="heroSubtitle">EMPOWERING COMMUNITIES FOR SUSTAINABLE DEVELOPMENT</h2>
+                    <button class="hero-cta" id="heroCta">BECOME OUR MEMBER</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Indicators -->
+        <div class="slide-indicators">
+            <button class="indicator active" data-slide="0"></button>
+            <button class="indicator" data-slide="1"></button>
+            <button class="indicator" data-slide="2"></button>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line">
+                <div class="scroll-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-card">
+                    <div class="story-image">
+                        <div class="story-overlay"></div>
+                        <div class="story-content">
+                            <h3>Our <strong>Story</strong></h3>
+                            <button class="story-btn">About us</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-image goals-bg">
+                        <div class="story-overlay"></div>
+                        <div class="story-content">
+                            <h3>Our <strong>Goals</strong></h3>
+                            <button class="story-btn">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-card">
+                    <div class="story-image members-bg">
+                        <div class="story-overlay"></div>
+                        <div class="story-content">
+                            <h3>Our <strong>Members</strong></h3>
+                            <button class="story-btn">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Events Section -->
+    <section class="featured-events" id="events">
+        <div class="container">
+            <h2 class="section-title">Featured Events</h2>
+            
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Regional Conference">
+                    </div>
+                    <div class="event-content">
+                        <h3>Regional Conference on Community Development</h3>
+                        <p>Annual Regional Conference on Effective Local Governance: Accountability, Participation and Inclusion is conceptualised as a multi-stakeholder platform of civil society organisations, academicians, government and donor agencies which engages in critical reflection on strengthening local governance in the region.</p>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-image">
+                        <img src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Community Project">
+                    </div>
+                    <div class="event-content">
+                        <h3>Community Empowerment Project</h3>
+                        <p>The project helped the Mithila Samaj Bikash Manch and its partners gain new alliance, partnerships and collaborative strategies in the quest for enlarging civic spaces and choices especially at the subnational level, activities secured the role and contribution...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Mithila Samaj Bikash Manch</h2>
+                    <p>Mithila Samaj Bikash Manch is a dedicated non-governmental organization committed to empowering communities and fostering sustainable development in the Mithila region. Our mission is to create lasting positive change through education, healthcare, and community development initiatives.</p>
+                    
+                    <div class="stats">
+                        <div class="stat">
+                            <div class="stat-number">10,000+</div>
+                            <div class="stat-label">Lives Impacted</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Villages Reached</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Years of Service</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Community Work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Education</h3>
+                    <p>Providing quality education and literacy programs to empower communities with knowledge and skills for a better future.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Healthcare</h3>
+                    <p>Delivering essential healthcare services and promoting health awareness in rural and underserved communities.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Community Development</h3>
+                    <p>Supporting sustainable community development projects that improve living standards and create opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Gallery</h2>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Education Program">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Healthcare Initiative">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Infrastructure Development">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Rural Development">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Community Meeting">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Environmental Work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to make a difference? Contact us to learn more about our work or to get involved in our mission.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Janakpur, Dhanusha, Nepal</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+977-9851234567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>mithilasamaj@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <h3>मिथिला समाज विकास मञ्च</h3>
+                        <p>Mithila Samaj Bikash Manch</p>
+                    </div>
+                    <p>Empowering communities through sustainable development, education, and healthcare initiatives across the Mithila region.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Janakpur, Nepal</li>
+                        <li><i class="fas fa-phone"></i> +977-9851234567</li>
+                        <li><i class="fas fa-envelope"></i> mithilasamaj@gmail.com</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mithila Samaj Bikash Manch. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script-v3.js"></script>
+</body>
+</html>
