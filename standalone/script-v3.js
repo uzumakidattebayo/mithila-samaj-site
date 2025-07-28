@@ -266,6 +266,7 @@ galleryItems.forEach(img => {
 // Header scroll effect
 let lastScrollTop = 0;
 const header = document.querySelector('.header');
+const topBar = document.querySelector('.top-bar');
 
 function handleScroll() {
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -273,8 +274,10 @@ function handleScroll() {
     // Add/remove scrolled class for styling
     if (scrollTop > 100) {
         header.classList.add('scrolled');
+        if (topBar) topBar.classList.add('scrolled');
     } else {
         header.classList.remove('scrolled');
+        if (topBar) topBar.classList.remove('scrolled');
     }
     
     // Animate elements on scroll
@@ -296,10 +299,20 @@ style.textContent = `
     .header.scrolled {
         background: rgba(255, 255, 255, 0.98);
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        margin-top: 0;
+    }
+    
+    .top-bar.scrolled {
+        background: rgba(71, 85, 105, 0.98);
+        backdrop-filter: blur(10px);
     }
     
     [data-theme="dark"] .header.scrolled {
         background: rgba(15, 23, 42, 0.98);
+    }
+    
+    [data-theme="dark"] .top-bar.scrolled {
+        background: rgba(30, 41, 59, 0.98);
     }
     
     .lightbox {

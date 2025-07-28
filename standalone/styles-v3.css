@@ -51,6 +51,12 @@ body {
     padding: 0.5rem 0;
     font-size: 0.875rem;
     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    transition: var(--transition);
 }
 
 @media (min-width: 768px) {
