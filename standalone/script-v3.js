@@ -300,28 +300,25 @@ style.textContent = `
         top: 0 !important;
         background: rgba(255, 255, 255, 0.98) !important;
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        padding-top: 2.5rem;
+    }
+    
+    .header.scrolled .header-content {
+        padding-top: 0.5rem;
     }
     
     .top-bar.scrolled {
-        background: rgba(71, 85, 105, 0.98);
-        backdrop-filter: blur(10px);
+        display: none !important;
     }
     
     [data-theme="dark"] .header.scrolled {
         background: rgba(15, 23, 42, 0.98) !important;
     }
     
-    [data-theme="dark"] .top-bar.scrolled {
-        background: rgba(30, 41, 59, 0.98);
-    }
-    
-    .lightbox {
-        animation: fadeIn 0.3s ease-out;
-    }
-    
-    @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
+    @media (max-width: 767px) {
+        .header.scrolled {
+            padding-top: 0;
+        }
     }
     
     .hero-title, .hero-subtitle, .hero-cta {
