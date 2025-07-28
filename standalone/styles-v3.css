@@ -127,20 +127,19 @@ body {
 /* Header */
 .header {
     position: fixed;
-    top: 0;
+    top: 2.5rem;
     left: 0;
     right: 0;
     z-index: 1000;
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
-    margin-top: 0;
-    transition: var(--transition);
+    transition: all 0.3s ease;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
     .header {
-        margin-top: 2.5rem;
+        top: 0;
     }
 }
 

@@ -297,9 +297,9 @@ window.addEventListener('load', () => {
 const style = document.createElement('style');
 style.textContent = `
     .header.scrolled {
-        background: rgba(255, 255, 255, 0.98);
+        top: 0 !important;
+        background: rgba(255, 255, 255, 0.98) !important;
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
-        margin-top: 0;
     }
     
     .top-bar.scrolled {
@@ -308,7 +308,7 @@ style.textContent = `
     }
     
     [data-theme="dark"] .header.scrolled {
-        background: rgba(15, 23, 42, 0.98);
+        background: rgba(15, 23, 42, 0.98) !important;
     }
     
     [data-theme="dark"] .top-bar.scrolled {
